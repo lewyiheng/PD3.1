@@ -27,7 +27,7 @@
             android:id="@+id/tvTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/colorPrimary"
+            android:background="@color/blackLessLess"
             android:textColor="@color/white"
             android:textSize="20sp"
             android:padding="15dp"
@@ -40,8 +40,11 @@
             android:layout_height="wrap_content"
             android:textSize="15sp"
             android:padding="5dp"
+            android:background="@color/blackLess"
+            android:textColor="@color/white"
             android:text="test desc"
-            android:textAlignment="center"/>
+            android:textAlignment="center"
+            />
 
         </LinearLayout>
 

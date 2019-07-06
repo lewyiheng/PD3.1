@@ -6,15 +6,17 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    tools:context=".ViewListDetailsActivity">
+    tools:context=".ViewListDetailsActivity"
+    android:background="@color/black">
 
     <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
         android:layout_width="350dp"
         android:layout_height="400dp"
         android:layout_gravity="center"
         android:layout_margin="10dp"
-        android:backgroundTint="@color/lighterGrey"
-        card_view:cardCornerRadius="10dp">
+        android:backgroundTint="@color/blackLessLess"
+        card_view:cardCornerRadius="10dp"
+        >
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -29,7 +31,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/colorPrimary"
+                    android:background="@color/blackLess"
                     android:text="Title"
                     android:textAlignment="center"
                     android:textColor="@color/white"
@@ -41,7 +43,9 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:textAlignment="center"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:background="@color/blackLessLess"
+                    android:textColor="@color/white"/>
 
             </LinearLayout>
 
@@ -53,7 +57,7 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@color/colorPrimary"
+                    android:background="@color/blackLess"
                     android:text="Description"
                     android:textAlignment="center"
                     android:textColor="@color/white"
@@ -64,6 +68,8 @@
                     android:layout_width="300dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
+                    android:background="@color/blackLessLess"
+                    android:textColor="@color/white"
                     android:textAlignment="center"
                     android:textSize="20sp" />
             </LinearLayout>
@@ -82,8 +88,9 @@
             android:id="@+id/btnUpdate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1
-"
+            android:layout_weight="1"
+            android:background="@color/blackLessLess"
+            android:textColor="@color/white"
             android:text="Update Item" />
 
         <Button
@@ -91,6 +98,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:background="@color/blackLessLess"
+            android:textColor="@color/white"
             android:text="Delete Item" />
     </LinearLayout>
 

@@ -4,6 +4,9 @@
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
     <color name="grey">#555555</color>
+    <color name="black">#000000</color>
+    <color name="blackLess">#111111</color>
+    <color name="blackLessLess">#222222</color>
     <color name="lighterGrey">#CCCCCC</color>
     <color name="lightestGrey">#EEEEEE</color>
     <color name="white">#EEEEEE</color>
